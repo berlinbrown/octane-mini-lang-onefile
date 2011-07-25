@@ -1,0 +1,38 @@
+############
+# OctaneMini Example Source
+############
+
+
+exit
+
+ data + 1 1 
+
+
+
+ data + 100 11000 
+
+ data lambda ( + + 1 1 + 1 1)  
+
+ data - swap 5 10 
+
+ data lambda (+ 1 1)  
+
+ data myf call , myf func (- 5 10) , 
+
+ data myfunc call , myfunc func ( - ) 5 10 
+
+ data ptr ptrval ptrplus , ptrval 'h' ptrset 
+
+ data ptrval , ptr , ptrdec ptr ptrdec , ptr , ptrwhile ( 100 ptrinc ) , ptrdec ptrdec , ptrinc ptrplus , ptrinc ptrplus 
+
+ data if ( false ) ( + 1 1 ) ( + 2 2 )   
+
+ data if (true) (+ 1 1) (+ 2 2)   
+
+ data ptrval ptrinc , ptrwhile ( ptrdec ptrplus ptrplus ptrinc, ptrminus ) , ptrval 1000 ptrset 
+
+ data ifstk , or norem 5 2 norem 5 2 , 1 0
+
+ data x loop [ 1 2 3 4 5 ] , x func ( ifstk , or norem ptrval 3 norem ptrval 5 , ptrval 0 , ptrsetstk ) 
+
+ data sumstk , x loop range 10, x func ( ifstk , or norem ptrval 3 norem ptrval 5 , ptrval 0 , ptrsetstk ) 
