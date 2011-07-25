@@ -1,5 +1,11 @@
-Octane mini is a simple proof of concept programming language.  It is a simple stack based programming language built on top of Java.  It is very basic, almost esoteric (in the of BrainF**k).
-           
-OctaneMini, simple programming language in Java with one source file.  The entire implementation is contained in this file.   A suite of test cases are also provided in a separate class.  The goal of this project is to implement a simple stack based language with as few operations as possible.  This is a turing complete proof of concept language.
+Octane mini is a simple proof of concept stack based programming language built on top of Java.  It is very basic, almost esoteric (in the of BrainF**k).
+It was created to use only one source file.  The entire implementation is contained in this file.  Despite only using one file, there are dozens of commons operations available.
+
+A suite of test cases are also provided in a separate class.  The goal of this project is to implement a simple stack based language with as few operations as possible.  
+This is a turing complete proof of concept language.
 
 keywords: java, simple, brainf**k, bf, simple, stack language, forth like, joy like
+
+http://en.wikipedia.org/wiki/Joy_(programming_language)
+http://www.kevinalbrecht.com/code/joy-mirror/index.html
+http://en.wikipedia.org/wiki/Forth_(programming_language)
