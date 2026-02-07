@@ -47,8 +47,6 @@ lambda ( + 1 1 )
 
  data sumstk , x loop range 10, x func ( ifstk , or norem ptrval 3 norem ptrval 5 , ptrval 0 , ptrsetstk ) 
 
-
-
 keywords: java, simple, brainf**k, bf, simple, stack language, forth like, joy like
 
 http://en.wikipedia.org/wiki/Joy_(programming_language)
