@@ -161,9 +161,7 @@ public class OctaneLangOneSourceFile {
      * @param args
      */
     public static void main(final String[] args) {
-
         new OctaneLangOneSourceFile().run(args);
-
     }
 
     /**
@@ -1081,5 +1079,4 @@ public class OctaneLangOneSourceFile {
     public Object getActiveObject() {
         return activeObjectArray;
     }
-
 }
